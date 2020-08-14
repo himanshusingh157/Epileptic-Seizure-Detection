@@ -5,6 +5,7 @@ This is a 5-class classification problem. The pattern here is essentially an EEG
 * Class-3: recording from healthy brain area
 * Class-4: recording includes brain area with tumour
 * Class-5: recording of an epileptic seizure
+\
 Dataset consists of 11500 samples where each is a 178 dimensional feature vector. The data is in eeg_data.csv. Ignore the first column in the csv file,the next 178 columns give the feature vector an the last column gives the class label.\
 \
 Code will be updated soon\
