@@ -49,9 +49,9 @@ class Network(nn.Module):
         output=self.relu(output)
         output=self.dropout(output)
         output=self.linear3(output)
-        self.sigmoid=nn.Sigmoid()
+        output=self.sigmoid(output)
         output=self.linear4(output)
-        self.sigmoid=nn.Sigmoid()
+        output=self.sigmoid(output)
         return output.view(-1,2)
 
 
@@ -114,5 +114,3 @@ with torch.no_grad():
 loss=loss/len(test_loader)
 print(f'Loss on Test data = {loss}')
 print(f'Accuracy on test data = {acc/bs}')
-
-
