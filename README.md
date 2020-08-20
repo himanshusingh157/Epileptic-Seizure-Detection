@@ -12,9 +12,9 @@ Each class Represents:\
 \
 All subjects falling in classes 2, 3, 4, and 5 are subjects who did not have epileptic seizure. Only subjects in class 1 have epileptic seizure.
 \
-The Classification is divide in two parts:\
-1) 2-class Classification : class {2,3,4,5} vs class 1\
-2) 5-class Classification\
+The Classification is divide in two parts:
+1) 2-class Classification : class {2,3,4,5} vs class 1
+2) 5-class Classification
 ## Files:
 ### 2_class.py for 2-class Classification
 ### 5_class.py for 5-class Classification
